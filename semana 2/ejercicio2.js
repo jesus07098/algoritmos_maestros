@@ -11,3 +11,4 @@ btnCalc.addEventListener("click", () => {
 function verifyAge(month, year, day) {
   date.getMonth() + 1 < month || (month == date.getMonth() + 1 && date.getDate() < day) ? alert(`Su edad es  ${(date.getFullYear() - year) - 1}`) : alert(`Su edad es  ${date.getFullYear() - year}`);
 }
+console.log('prueba');
